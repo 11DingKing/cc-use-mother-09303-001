@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "国际职教合作项目台账",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "中方院校",
+    "外方院校",
+    "项目秘书处"
+  ],
+  "states": [
+    "洽谈",
+    "签约",
+    "执行",
+    "验收",
+    "收尾"
+  ],
+  "invariants": [
+    "多方义务",
+    "责任移交",
+    "里程碑证据",
+    "项目恢复"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-001-A",
+      "actor": "中方院校",
+      "state": "洽谈"
+    },
+    {
+      "case_id": "09303-001-B",
+      "actor": "项目秘书处",
+      "state": "签约"
+    }
+  ],
+  "tags": [
+    "international-project",
+    "obligation-ledger"
+  ]
+}
