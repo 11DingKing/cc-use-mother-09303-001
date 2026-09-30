@@ -1,6 +1,19 @@
 [project]
 name = "domain-contract-09303-001"
-version = "0.1.0"
-description = "国际职教合作项目台账的领域约定与校验工具"
+version = "0.2.0"
+description = "国际职教合作项目台账：领域约定、封存式台账服务端与自动化校验"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+ledger-server = "ledger_server.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

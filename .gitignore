@@ -6,3 +6,6 @@ __pycache__/
 *.sqlite3
 dist/
 build/
+
+# 台账服务本地数据库
+*.db
